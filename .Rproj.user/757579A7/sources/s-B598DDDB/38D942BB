@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542348664518.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "38D942BB",
+    "lastKnownWriteTime" : 1541810583,
+    "last_content_update" : 1542348666481,
+    "path" : "~/stat545/hw06-emreerhan/hw06-emreerhan.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "160,335",
+        "scrollLine" : "153"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
