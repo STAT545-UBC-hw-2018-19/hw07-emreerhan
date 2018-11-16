@@ -16,7 +16,7 @@ You can install powers from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("STAT545-UBC-students/hw07-emreerhan/biof")
+devtools::install_github("STAT545-UBC-students/hw07-emreerhan")
 
 # you'll also need:
 install.packages('stringr')
