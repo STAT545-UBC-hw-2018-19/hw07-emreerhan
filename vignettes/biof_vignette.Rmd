@@ -1,0 +1,37 @@
+---
+title: "Package biof"
+author: "Emre Erhan"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Package biof}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+__Note__: This is a small package I made for my statistics class. It includes functions for taking the canonical sequence and complementary sequence for a given sequence of DNA.
+
+```{r}
+library('biof')
+library('stringr')
+```
+
+Want a complementary sequence?
+
+```{r}
+long_dna_sequence = "ACGTGCATCGATCGATGTCGATGCTAGCTAGTGCTA"
+complementary(long_dna_sequence, dna = TRUE)
+
+short_rna_sequence = "AUGCUAGCUAGCUA"
+complementary(short_rna_sequence, dna = FALSE)
+```
+
+You can also get the canonical sequence!
+
+```{r}
+long_dna_sequence = "ACGTGCATCGATCGATGTCGATGCTAGCTAGTGCTA"
+
+minimal_canonical = canonical(long_dna_sequence, minimal = TRUE)
+maximal_canonical = canonical(long_dna_sequence, minimal = FALSE)
+```
+
