@@ -14,7 +14,7 @@ canonical = function(seq, minimal = TRUE){
     stop(paste("Expecting a string. Was given", typeof(seq)))
   }
   seq = toupper(seq)
-  if (!str_detect(seq, '^[ACGT]*$')){
+  if (!stringr::str_detect(seq, '^[ACGT]*$')){
     stop(paste("Expecting a DNA sequence consisting of only A, C, G, T"))
   }
 
